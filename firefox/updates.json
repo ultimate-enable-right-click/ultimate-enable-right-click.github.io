@@ -1,0 +1,60 @@
+{
+  "addons": {
+    "{5093fc40-3b31-4a63-b844-ccdfaa88022a}": {
+      "updates": [
+        {
+          "version": "1.1.4",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.1.4.xpi"
+        },
+        {
+          "version": "1.1.5",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.1.5.xpi"
+        },
+        {
+          "version": "1.2.0",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.0.xpi"
+        },
+        {
+          "version": "1.2.1",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.1.xpi"
+        },
+        {
+          "version": "1.2.2",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.2.xpi"
+        },
+        {
+          "version": "1.2.3",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.3.xpi"
+        },
+        {
+          "version": "1.2.4",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.4.xpi"
+        },
+        {
+          "version": "1.2.5",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.5.xpi"
+        },
+        {
+          "version": "1.2.6",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.6.xpi"
+        },
+        {
+          "version": "1.2.7",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.7.xpi"
+        },
+        {
+          "version": "1.2.8",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.2.8.xpi"
+        },
+        {
+          "version": "1.3.0",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/1.3.0.xpi"
+        },
+        {
+          "version": "2.0.0",
+          "update_link": "https://ultimate-enable-right-click.github.io/firefox/2.0.0.xpi"
+        }
+      ]
+    }
+  }
+}
