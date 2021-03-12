@@ -1,0 +1,500 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="우클릭 차단 종결자는 마우스 우클릭, 드래그가 막혀 있는 웹 사이트에서 우클릭, 드래그를 가능하게 해 주는 가장 강력한 브라우저 확장 프로그램입니다.">
+    <meta name="keywords" content="우클릭, 우클릭 제한, 우클릭 해제, Enable right click, unblock right click">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>우클릭 차단 종결자</title>
+
+    <meta property="og:title" content="우클릭 차단 종결자" />
+    <meta property="og:image" content="https://ultimate-enable-right-click.github.io/1280.png" />
+    <meta property="og:description" content="마우스 우클릭, 드래그가 막혀 있는 웹 사이트를 위한 가장 강력한 확장앱." />
+
+    <meta name="google-site-verification" content="DP0oOOlcT-9-YCaEFyUEeTcSj6rxHCyuwJbIDCh2PUs" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="icon_32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon_192.png">
+
+    <link rel="stylesheet" href="neumorphism.css">
+    <link rel="stylesheet" href="custom.css">
+    
+    <style>
+        #userSelect {
+            user-select: none!important;
+            -webkit-user-select: none!important;
+        }
+
+        @media print {
+            * {
+                display: none!important;
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;" class="lang-ko">
+<main>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" lang="ko" id="EN">English</a>
+            <a href="#" lang="en" id="KO">한국어</a>
+        </div>
+    </nav>
+    <script src="index.js"></script>
+    <section class="section bg-soft pb-5 pt-6 overflow-hidden z-2">
+        <div class="container z-2">
+            <div class="row justify-content-center text-center pt-6">
+                <div class="col-lg-9 col-xl-9">
+                    <h1 class="display-2 mb-5">
+                        <span lang="ko">우클릭 차단 종결자</span>
+                        <span lang="en">Ultimate Enable Right Click</span>
+                    </h1>
+                    <p class="lead px-md-6 mb-5">
+                        <span lang="ko">
+                            마우스 우클릭, 드래그가 막혀 있는 웹 사이트를 위한 <strong class="font-weight-normal">가장 강력한</strong> 확장앱
+                        </span>
+                        <span lang="en">
+                            The most <strong class="font-weight-normal">comprehensive, advanced</strong> solution for websites blocking <span class="text-nowrap">right-click</span>, text highlight, and copy.
+                        </span>
+                    </p>
+                    <div class="d-flex flex-column flex-wrap flex-md-row justify-content-md-center mb-5">
+                        <a href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen" target="_blank" class="btn btn-primary mb-3 mr-2 ml-2">
+                            <img src="img/cr.svg" class="store-logo mr-2" /><span lang="ko">구글 크롬</span><span lang="en">Chrome</span>
+                        </a>
+                        <a href="/firefox/2.2.10.xpi" target="_blank" class="btn btn-primary mb-3 mr-2 ml-2"  id=firefox_install>
+                            <img src="img/ff.svg" class="store-logo mr-2"/><span lang="ko">파이어폭스</span><span lang="en">Firefox</span>
+                        </a>
+                        <a href="https://microsoftedge.microsoft.com/addons/detail/ijopbbfjlehabpldjiaipgiiedhfhbad" target="_blank" class="btn btn-primary mb-3 mr-2 ml-2">
+                            <img src="img/edge.svg" class="store-logo mr-2" /><span lang="ko">MS 엣지</span><span lang="en">Edge</span>
+                        </a>
+                        <a href="https://store.whale.naver.com/detail/bdboifadgcmidogceiohgchkmlcicagk/" target="_blank" class="btn btn-primary mb-3 mr-2 ml-2">
+                            <img src="img/whale.png" class="store-logo mr-2" /><span lang="ko">네이버 웨일</span><span lang="en">Whale</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- intro -->
+    <section class="section border-bottom border-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6  mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-body">
+                            <h3 class="h4 card-title mb-3">
+                                <span lang="ko">"우클릭 해제" 가 아닌 "우클릭 차단 방지"</span>
+                                <span lang="en">The Ultimate Enabler</span>
+                            </h3>
+                            <p class="card-text mt-4">
+                                <span lang="ko">
+                                    타 앱과 같이 이미 존재하는 우클릭 차단 메커니즘을 해제하는 것이 아니라, 원천적으로 웹사이트의 우클릭 차단을 불가능하게 합니다.
+                                    타 앱에서 해제하지 못하던 사이트에서도 우클릭이 정상적으로 동작하도록 합니다.
+                                </span>
+                                <span lang="en">
+                                    Websites block you from right-clicking; we block websites from blocking you.
+                                    While other extensions struggle to remove the block, we prevent websites from installing the block from the beginning.
+                                    This is why we can enable right click, text selection, and copy on literally every website.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6  mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-body">
+                            <h3 class="h4 card-title mb-3">
+                                <span lang="ko">그냥 켜 두시면 됩니다.</span>
+                                <span lang="en">Install it and forget.</span>
+                            </h3>
+                            <p class="card-text mt-4">
+                                <span lang="ko">
+                                    보다 정교하고 복잡한 기술을 적용하여, 웹사이트의 동작에 미치는 영향을 최소화하였습니다. "우클릭 차단 종결자" 의 자바스크립트 기반 우클릭 차단 방지는 모든 사이트에서 기본값으로 켜져 있습니다.
+                                </span>
+                                <span lang="en">
+                                    Other similar extensions frequently break websites, making you busy toggling it on and off.
+                                    We use the most sophisticated technology to minimize undesirable side-effects,
+                                    empowering you to focus on browsing with your natural habits undistracted.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-body">
+                            <h3 class="h4 card-title mb-3">
+                                <span lang="ko">그래도 드래그가 안될 땐, 추가 기능을 켜세요!</span>
+                                <span lang="en">A dedicated module for CSS-based blocking methods</span>
+                            </h3>
+                            <p class="card-text mt-4">
+                                <span lang="ko">
+                                    우클릭 차단과 달리, 드래그를 통한 블록 지정은 자바스크립트가 비활성화 된 경우에도 CSS를 이용하여 차단 가능합니다. 확장 프로그램 아이콘을 클릭하여
+                                    "블록 지정 활성화(CSS)" 기능을 켜면, 이 경우에도 예외 없이 모든 텍스트를 블록 지정할 수 있습니다.
+                                </span>
+                                <span lang="en">
+                                    Unlike right-click, websites may block text block selection using CSS, making it persistent even after Javascript is completely turned off. 
+                                    The separate CSS module will neutralize it without exception, and you can highlight and copy texts everywhere.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-body">
+                            <h3 class="h4 card-title mb-3">
+                                <span lang="ko">
+                                    사이트 별 설정 기능
+                                </span>
+                                <span lang="en">
+                                    Per-site settings
+                                </span>
+                            </h3>
+                            <p class="card-text mt-4">
+                                <span lang="ko">
+                                    특정 사이트에서 확장앱을 끄고 싶으신가요? 확장앱 아이콘에서 도메인 별 활성화 여부를 선택할 수 있습니다. 이는 크롬 동기화 기능을 통해 모든 컴퓨터로 동기화됩니다.
+                                </span>
+                                <span lang="en">
+                                    Quickly toggle the app's feature from the app's popup. The app will remember it next time you visit the site.
+                                    If you are logged in to your browser, your preferences will be synced to the browser too. 
+                                    The setting "Run in this session" allows you to toggle a feature temporarily. View all the settings at a glance with the settings dashboard.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="card bg-primary shadow-soft border-light px-4 py-5 text-center mb-5 mt-5">
+                        <div class="card-header pb-0">
+                            <h2 class="h1 mb-3">
+                                <span lang="ko">
+                                    이 사이트의 우클릭 방지를 해제할 수 있나요?
+                                </span>
+                                <span lang="en">
+                                    Can you enable right click on this page?
+                                </span>
+                            </h2>
+                        </div>
+                        <div class="card-body pt-2 px-0 px-lg-7">
+                            <p class="mb-5 lead">
+                                <span lang="ko">
+                                    이미 눈치채셨을지 모르겠지만, 이 사이트에도 우클릭, 드래그 차단이 적용되어 있습니다. 당신이 사용하고 있는 확장앱은 이 사이트의 차단을 무력화할 수 있는지 테스트해보세요!
+                                </span>
+                                <span lang="en">
+                                    You may have already noticed that this page also has right-click and drag protection.
+                                    <br>Try re-enabling everything yourself with an app you have.
+                                </span>
+                            </p>
+                            <p id=userSelect class="mb-5 lead border-bottom border-top" style="user-select:none!important;">
+                                <span lang="ko">
+                                    이 블록의 글은 자바스크립트를 비활성화 하더라도 선택할 수 없습니다. 당신이 사용하고 있는 확장앱으로는 이 문장을 드래그하여 선택할 수 있나요?
+                                </span>
+                                <span lang="en">
+                                    This paragraph cannot be highlighted even if you completely turn off the Javascript.<br>See if your app can enable text selection here.
+                                </span>
+                            </p>
+                            <div id=test>
+                                <p class="lead">
+                                    <span lang="ko">
+                                        만약 확장앱을 실행하셨다면, 실행한 뒤에도 사이트의 기능이 정상적으로 작동하는지 확인해보세요. 아래 버튼을 누르시면 페이지가 새로고침 되나요?
+                                    </span>
+                                    <span lang="en">
+                                        I think you have enabled some extensions. Now test whether it did not break any of the site's usual behaviors.
+                                        <br>Try clicking the button below. Does it refresh the page?
+                                    </span>
+                                </p>
+                                <a target=_blank class="btn btn-primary btn-sm mb-3" onmousedown="location.reload()">
+                                    <span lang="ko">페이지 새로고침</span>
+                                    <span lang="en">Refresh this page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- patch notes -->
+    <section class="section border-bottom border-primary">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/plans.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2022 7/18</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">향후 추가될 기능과 Manifest V3</h3>
+                            <p class="card-text">
+                                우클릭 차단 종결자는 모든 우클릭, 블록 지정을 방해하는 기술로부터 자유로워질 수 있는 툴을 제공하는 것을 목표로 합니다.
+                                몇몇 사용자분들께서 드래그가 안 되는 사이트를 제보해주셨는데, 블록 지정 시 블록의 색을 투명한 색으로 변경하거나
+                                주기적으로 블록 지정된 영역을 지우는 특정 방법으로 동작하고 있었으며, 이를 쉽게 사용할 수 있는 UI를 통해 해제할 수 있게 하는 것이 과제로 남아있습니다.
+                            </p>
+                            <p class="card-text">
+                                또 한가지 중요한 문제는, 인스타그램이나 많은 동영상 사이트에서 사용하고 있는, 이미지 위에 투명한 레이어를 씌워 우클릭 저장을 막는 행위입니다.
+                                이 경우 우클릭은 잘 되지만 우클릭 메뉴에 "다른 이름으로 저장" 등의 메뉴가 뜨지 않습니다. 이를 해제하는 것 또한 이미 프로토타이핑은 되어 있으나,
+                                <a href="https://developer.chrome.com/docs/extensions/mv3/intro/" target="_blank">매니패스트 V3</a>으로 관련 확장프로그램 API에 기능 변화가 있을 것으로 예상되어 현재 구현을 보류하고 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/settings_page.png" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2022 7/18</span>
+                                </div>
+                            </div>
+                            <h3 class="h5 card-title mt-4">설정 페이지, 다크 모드 지원</h3>
+                            <p class="card-text">
+                                2.0.0 버전에서 설정 페이지가 추가되었고, 2.2.0 버전에서 다크 모드가 추가되었습니다. 
+                                많은 분들이 "블록 지정 활성화" 기능까지 모든 사이트에서 켤 수 있도록 해달라고 요청하셨고,
+                                이제 설정 페이지의 (기본값) 항목을 통해 이것이 가능합니다.
+                                가장 큰 변화는 이제 특정 도메인이 예외처리되면 그 도메인의 하위 도메인에까지 해당 설정이 적용된다는 것입니다.
+                            </p>
+                            <p class="card-text">
+                                크롬에서 Manifest V3에 박차를 가하며 모바일 크롬에서도 확장 프로그램이 조만간 지원될 듯했으나, 예상 외로
+                                애플에서 먼저 지원을 발표하였습니다. 이 iOS 사파리에 확장 프로그램을 올릴 때 애플이 요구하는 것이 바로 다크 모드 지원입니다.
+                                애플에서는 상당한 개발자 등록 요금을 요구하여 우클릭 차단 종결자를 아직 사파리 애드온으로 게시할 계획은 없으나,
+                                다크 모드 지원이 사용자 경험에 큰 긍정적 영향을 미칠 것으로 기대합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/ctrlc.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/24</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">1.2.0: 복사 차단 방지</h3>
+                            <p class="card-text">
+                                복사 금지에 대한 처리는 필요한 사이트가 별로 없어 개발 대상으로 고려하지 않았습니다. 그런데 개발 후 의외로 일부 사이트에서
+                                우클릭 메뉴 > 복사, 컨트롤 + C를 통해 텍스트를 복사하려 해도 실제로는 복사되지 않거나, 알림창이 뜨거나, 복사된 내용에 변형이 가해지는 것을 발견했습니다.
+                                특히 자연스럽고 습관적인 사용자 행위에 대해 알림창을 띄우는 것은 경험을 매우 저해하는 요소임이 분명했습니다.
+                            </p>
+                            <p class="card-text">
+                                복사를 방해하는 행위를 막기 위해 기존 우클릭 차단 방지와 비슷한 접근방식을 적용할 수 있어, 이를 구현하여 1.2.0 버전을 릴리즈 하였습니다.
+                                현재 "우클릭 차단 방지" 기능이 켜져 있을 시 복사 차단 방지도 함께 켜지며, 끄기 위해선 우클릭 차단 방지를 꺼 주시면 됩니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/firefox_publish.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/18</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">파이어폭스 버전 게시</h3>
+                            <p class="card-text">
+                                처음 이 확장앱을 소개하였을 때, 몇몇 분들께서 파이어폭스 버전을 요청하셨습니다. 
+                            </p>
+                            <p class="card-text">
+                                파이어폭스 버전 개발이 늦춰진 이유는 두 가지입니다.
+                            </p>
+                            <p class="card-text">
+                                <strong>보다 까다로운 리뷰</strong> <a href="https://addons.mozilla.com" target=_blank>Mozilla의 확장앱 스토어</a>에 등록되기 위해서는 타 브라우저에 비해 엄격한
+                                리뷰 과정을 거쳐야 합니다. 그 중 하나가 원본 소스코드의 제출인데, 사람이 직접 쓴 것이 아니라, 기계에 의해 쓰여져 사람이 읽기 어려운 코드의 경우 원본 소스코드 제출을
+                                의무화 하고 있습니다. "우클릭 차단 종결자" 의 코드는 이에 해당되지만, 모든 소스코드와 빌드 툴을 제출하기에는 어려움이 있었습니다.
+                            </p>
+                            <p class="card-text">
+                                <strong>파이어폭스만의 API를 이용하면 확장앱을 더욱 효율적으로 구현 가능</strong> 파이어폭스를 빠르게 지원하려면, 이미 기존 웨일 버전이 파이어폭스에서도 제공하는 API만을 이용하여
+                                구현되었기 때문에 그 확장앱 파일을 그대로 사용해도 됩니다. 하지만 크롬 기반 브라우저에는 존재하지 않는 파이어폭스만의 API를 이용하면 확장앱의 기능을 보다 효율적으로 구현할 수 있음을 알고 있었고,
+                                파이어폭스 버전을 개발한다면 이를 꼭 이용하고자 하였습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/firefox_publish.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/18</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">파이어폭스 버전 게시 - 이어서...</h3>
+                            <p class="card-text">
+                                이러한 이유로 인해, 파이어폭스 버전은 현재 보고 계신 이 홈페이지를 통해 배포하기로 하였습니다. 
+                            </p>
+                            <p class="card-text">
+                                <strong>공홈 배포와의 차이</strong> 공홈에서 본 확장앱을 검색해도 나오지 않습니다. 확장앱의 자동 업데이트 주소가 본 홈페이지로 설정됩니다.
+                                확장앱의 자체 배포를 위해서는 Mozilla의 보다 간소한 리뷰 과정을 거치게 됩니다. 보안성 체크는 원본 소스 없이도 누구나 확장앱 파일의 압축을 풀어 확인하실 수 있을 것입니다.
+                            </p>
+                            <a href="/firefox/2.2.10.xpi"class="btn btn-primary btn-sm mb-3">파이어폭스에 확장앱 설치하기</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/css_1.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/12</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">CSS 모듈 업데이트</h3>
+                            <p class="card-text">
+                                1.1.0 버전에는 CSS 모듈의 2가지 업데이트가 포함되어 있습니다.
+                            </p>
+                            <p class="card-text">
+                                현재 존재하는 그 어떤  우클릭, 드래그 관련 확장앱에서도 찾아볼 수 없었던, CSS <span class="text-monospace">pointer-events</span> 속성에 대한 대응이 이루어졌습니다.
+                                이 트릭을 실제로 사용하는 사이트로 두 대형 웹툰 플랫폼이 있습니다.
+                            </p>
+                            <p class="card-text">
+                                CSS 모듈을 실행하면 일부 글자의 위치가 살짝 어긋나게 표현되던 문제를 해결하였습니다. 문제의 원인이 되었던 <a target=_blank href="https://bugs.chromium.org/p/chromium/issues/detail?id=1186922">
+                                크롬 브라우저의 새로운 버그</a>를 발견하여 공식적으로 리포팅 하였습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/words_2.png" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/4</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">크롬과 웨일 웹 스토어에 게시</h3>
+                            <p class="card-text">
+                                첫 버전이 며칠간의 심사를 마치고 크롬 웹 스토어와 웨일 스토어에 게시되었습니다.
+                            </p>
+                            <a target=_blank href="https://chrome.google.com/webstore/detail/ultimate-enable-right-cli/emfeppdfcjnldjgmofdkbggeacapegen"class="btn btn-primary btn-sm mb-3">크롬 웹 스토어로 바로가기</a>
+                            <a target=_blank href="https://store.whale.naver.com/detail/bdboifadgcmidogceiohgchkmlcicagk/" class="btn btn-primary btn-sm mb-3">웨일 스토어로 바로가기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <img src="img/words_1.jpg" class="card-img-top rounded" alt="Designer desk">
+                        </div>
+                        <div class="card-body pt-2">
+                            <div class="media d-flex align-items-center justify-content-between">
+                                <!--
+                                <div class="post-group">
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="23k followers">
+                                        <img class="avatar-sm mr-2 img-fluid rounded-circle" src="@@path/assets/img/team/profile-picture-2.jpg" alt="Jo portrait"> 개발자
+                                    </a>
+                                </div>
+                                -->
+                                <div class="d-flex align-items-center">
+                                    <span class="small"><span class="far fa-calendar-alt mr-2"></span>2021 3/1</span>
+                                </div>
+                            </div> 
+                            <h3 class="h5 card-title mt-4">첫 버전이 개발되었습니다.</h3>
+                            <p class="card-text">
+                                다른 우클릭 해제 확장앱이 가지고 있던 문제점을 해결하고, 무엇보다 "그냥 켜 놓아도 되는" 확장앱을 만들고자 하는 목표로 개발을 시작하여, 첫 버전이 완성되었습니다.
+                            </p>
+                            <p class="card-text">
+                                핵심 기능은 대부분 구현되었고, 추후 다음과 같은 부분을 개선하려 합니다.
+                            </p>
+                            <ul class="list-group">
+                                <li class="list-group-item border-primary">
+                                    사이트별 설정을 확인할 수 있는 설정 페이지 추가
+                                </li>
+                                <li class="list-group-item border-primary">
+                                    팝업 UI의 사용성 개선
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="card bg-primary border-light shadow-soft">
+                        <div class="card-header p-3">
+                            <h3 class="h4 card-title mb-3">
+                                <span lang="ko">오류가 있는 사이트, 제안사항이 있다면 개발자에게 알려주세요.</span>
+                                <span lang="en">If you have any questions or bug reports, please leave a message.</span>
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="disqus_thread"></div>
+                                <script>
+                                    /**
+                                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                                    /*
+                                    var disqus_config = function () {
+                                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                                    };
+                                    */
+                                    (function() { // DON'T EDIT BELOW THIS LINE
+                                    var d = document, s = d.createElement('script');
+                                    s.src = 'https://ultimate-right-click-enable.disqus.com/embed.js';
+                                    s.setAttribute('data-timestamp', +new Date());
+                                    (d.head || d.body).appendChild(s);
+                                    })();
+                                </script>
+                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KL25NG0PPG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KL25NG0PPG');
+    </script>
+</main>
+</body>
+</html>
