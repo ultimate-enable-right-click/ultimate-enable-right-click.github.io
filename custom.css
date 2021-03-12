@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5, .lead {
+    word-break: keep-all;
+}
+.store-logo {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+    .display-2 {
+        font-size: 3rem;
+    }
+}
+
+#test {
+    display:none;
+}
+
+body.lang-ko [lang=en] {
+    display:none;
+}
+
+body.lang-en [lang=ko] {
+    display:none;
+}
+
